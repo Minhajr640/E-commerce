@@ -146,10 +146,10 @@ function App() {
           {!loggedIn && (
           <div className="header-right">
             <Link to="/signup">
-            <button>Sign Up</button>
+            <button className="home-button">Sign Up</button>
             </Link>
             <Link to="/login">
-            <button>Log In</button></Link>
+            <button className="home-button">Log In</button></Link>
           </div>
           )}
           {loggedIn && (
