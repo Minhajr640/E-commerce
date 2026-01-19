@@ -1,0 +1,151 @@
+.product-list-container {
+    padding: 40px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+    margin-bottom: 20px; 
+}
+
+.product-card {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.136);
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.product-card img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.product-card h3 {
+    font-size: 1.1rem;
+    margin: 10px 0;
+    color: #646464;
+}
+
+.product-card .category {
+    color: #7f8c8d;
+    font-size: 0.9rem;
+    margin: 5px 0;
+}
+
+.product-card .price {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: black;
+    margin: 10px 0;
+}
+
+.product-card .stock {
+    color: #95a5a6;
+    font-size: 0.85rem;
+    margin: 5px 0;
+}
+
+.view-details {
+    background-color: white;
+    color: black;  
+    padding: 10px 20px;
+    border: 2px solid black;  
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+}
+
+.view-details:hover {
+    background-color: black;
+    color: white;
+}
+
+.no-products {
+    text-align: center;
+    padding: 50px;
+    font-size: 1.2rem;
+    color: #7f8c8d;
+}
+
+/* Page menu styles */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.pagination-btn {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: black 2px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.pagination-btn:hover:not(:disabled) {
+    background-color: black;
+    color: white;
+}
+
+.pagination-btn:disabled {
+    background-color: #95a5a6;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.page-numbers {
+    display: flex;
+    gap: 5px;
+}
+
+.page-number {
+    padding: 8px 12px;
+    background-color: #ecf0f1;
+    color: #7e7e7e;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.3s;
+}
+
+.page-number:hover {
+    background-color: #bdc3c7;
+}
+
+.page-number.active {
+    background-color: #c4b27a;
+    color: white;
+    border-color: #c4b27a;
+}
+
+.pagination-info {
+    text-align: center;
+    color: #7f8c8d;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+
+

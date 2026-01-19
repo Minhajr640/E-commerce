@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  background-color: white;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.main-header {
+  position: relative;
+  background-color: #FF5F1F;
+  color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-left {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  z-index: 10;
+}
+
+.main-header h1 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.categories-btn {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.categories-btn:hover {
+  background-color: rgba(0, 0, 0, 0.506);
+  color: white;
+}
+
+.search-icon-btn {
+  background-color: white !important; 
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.search-icon-btn:hover {
+  background-color: rgba(0, 0, 0, 0.506) !important;
+}
+
+.categories-dropdown {
+  position: absolute;
+  top: 70px;
+  left: 20px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  min-width: 200px;
+}
+
+.categories-dropdown ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.categories-dropdown li {
+  padding: 0;
+}
+
+.categories-dropdown a {
+  display: block;
+  padding: 12px 20px;
+  color: #2c3e50;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.categories-dropdown a:hover {
+  background-color: #ecf0f1;
+}
+
+.search-dropdown {
+  position: absolute;
+  top: 70px;
+  left: 140px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  padding: 15px;
+  min-width: 350px;
+}
+
+.search-form-popup {
+  display: flex;
+  gap: 10px;
+}
+
+.search-input-popup {
+  flex: 1;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: 1px solid #bdc3c7;
+  border-radius: 5px;
+}
+
+.search-input-popup:focus {
+  outline: 2px solid black !important; 
+}
+
+.search-submit-btn {
+  background-color: #ffffff !important;
+  color: black !important;
+  border: black 2px solid !important;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.search-submit-btn:hover {
+  background-color: #f3e2a1;
+}
+
+.App {
+  background-color: rgba(255, 255, 255, 0.889);
+  min-height: 100vh;
+  overflow-x: hidden; 
+  overflow-y: auto;
+}
+
+.home-button {
+    background-color: white;
+    color: black;  
+    padding: 5px 10px;
+    border: hidden black;  
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+    margin-bottom: 10px;
+    margin-right: 0.5rem;
+}
+
+.home-button:hover {
+  background-color: rgba(0, 0, 0, 0.506);
+  color: white;
+}

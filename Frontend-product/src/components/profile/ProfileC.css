@@ -1,0 +1,31 @@
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.profile-info > * {
+    margin: 0;
+}
+
+.profile-container-a {
+    width: 100vw;
+    height: 100vh;
+}
+
+.profile-orders {
+    margin-top: 1rem;
+}
+
+.profile-order-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.order-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+    margin-bottom: 20px; 
+}

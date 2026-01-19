@@ -1,0 +1,20 @@
+
+
+.success-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    padding-top: 20vh;
+}
+
+.success-messages {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vh;
+    justify-content: center;
+    align-items: center;
+}
+

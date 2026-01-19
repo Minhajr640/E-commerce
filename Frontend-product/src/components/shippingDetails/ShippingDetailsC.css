@@ -1,0 +1,126 @@
+h2 {
+    text-align: center;
+    margin-top: 1vh;
+}
+
+.shipping-details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1vh;
+}
+
+.different-address-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1vh;
+    margin-top: 3vh;
+}
+
+.address-dropdown {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1vh;
+    margin-top: 0.5vh;
+}
+
+.dropdown-item {
+    cursor: pointer;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 3px;
+    padding: 0.5vw;
+}
+
+.dropdown-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.container-a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+}
+
+.shipping-button {
+    background-color: white;
+    color: black;  
+    padding: 10px 20px;
+    border: 2px solid black;  
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+}
+
+.shipping-button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.address-details {
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: large;
+}
+
+.shipping-button#stripe:hover {
+    border-color: greenyellow;
+    transition: 0.3s;
+}
+
+.new-address-form-c {
+    display:flex;
+    flex-direction: column;
+    gap:1rem;
+    width: 35vw;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 3px;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+}
+
+.new-address-form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.new-address-button {
+    background-color: white;
+    color: black;  
+    padding: 5px 10px;
+    border: 2px solid black;  
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-bottom: 10px;
+}
+
+.new-address-button:hover {
+    background-color: black;
+    color: white;
+}
+

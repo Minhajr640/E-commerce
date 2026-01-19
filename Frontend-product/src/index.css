@@ -1,0 +1,15 @@
+* {
+  font-family: "Georgia", serif;
+}
+
+body {
+  margin: 0;
+  color: #7e7e7e;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: "Cascadia Code", monospace;
+}
+
